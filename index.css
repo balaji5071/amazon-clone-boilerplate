@@ -1,10 +1,13 @@
 *{
-    background-image:  url("https://github.com/Kalvium-Program/amazon-clone-boilerplate/blob/main/assets/background%20picture.png?raw=true")
+    background-image:  url("https://github.com/Kalvium-Program/amazon-clone-boilerplate/blob/main/assets/background%20picture.png?raw=true");
+    /* background-repeat:no-repeat; */
 
+    
 }
 #head{
-    border: 1PX solid;
+    /* border: 1PX solid; */
     margin-bottom: 200px;
+    height: 20px;
     
 }
 #lo{
@@ -24,6 +27,8 @@ margin-left: 20px;
 .head{
     display: flex;
     gap: 10;
+    height: 20px;
+    background-color: none;
 
     
 }
@@ -76,4 +81,30 @@ margin-left: 20px;
     width: 400px;
     display: inline-block;
     background-color: rgb(217, 227, 235);
+}
+@media (max-width: 1000px) {
+#ya{
+    color: rgb(42, 165, 63);
+
+}
+#li,#m,#n{
+    color: rgb(198, 83, 83);
+}
+    
+}
+@media (max-width: 600px) {
+  head   {
+        display: block;
+    }
+
+    head {
+
+        display: block;
+        margin: 5px 0;
+    }
+}
+.middle{
+    display:flex;
+    
+    gap: 10px;
 }
